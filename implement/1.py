@@ -12,3 +12,4 @@ for i in s:
 for i in range(index,len(s)):
     print(s[i],end="")
 print(result)
+
