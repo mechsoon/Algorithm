@@ -15,4 +15,4 @@ dp[2] = point[1]+point[2]
 for i in range(3, N+1):
     dp[i] = max(dp[i-2]+point[i], dp[i-3]+point[i-1]+point[i])
 
-print(dp[-1])
+print(dp[-
