@@ -3,7 +3,7 @@ def recur(count,n):
     indent="____"*count
     print(indent+'"재귀함수가 뭔가요?"')
     if count==n:
-        print(indent+"재귀함수는 자기 자신을 호출하는 함수라네")
+        print(indent+'"재귀함수는 자기 자신을 호출하는 함수라네"')
         print(indent+"라고 답변하였지.")
         return
     print(indent+'"잘 들어보게. 옛날옛날 한 산 꼭대기에 이세상 모든 지식을 통달한 선인이 있었어.')
