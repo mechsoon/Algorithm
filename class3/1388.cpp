@@ -22,7 +22,7 @@ vector<int> dijkstra(int start, vector<vector<pair<int, int>>>& graph) {
         int cur_node = pq.top().second;
         pq.pop();
 
-        // 이미 처리된 노드라면 스킵
+        // 이미 처리된 노드라면
         if (cur_dist > dist[cur_node]) continue;
 
         for (const auto& edge : graph[cur_node]) {
