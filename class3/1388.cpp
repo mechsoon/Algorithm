@@ -78,5 +78,4 @@ int main() {
 
     cout << best_node << "\n";
 
-    return 0;
-}
+    return 0
