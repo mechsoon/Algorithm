@@ -13,7 +13,7 @@ int main(){
         string str;
         cin>>str;
         // cout<<str<<"\n";
-        if(str.length()>=6 && str.substr(str.size()-6)=="Cheese"){
+        if(str.length()>=6 &&str.substr(str.size()-6)=="Cheese"){
             m[str]=1;
         }
     }
