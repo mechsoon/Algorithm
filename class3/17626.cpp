@@ -16,7 +16,7 @@ int main(){
         }
     }
     for(int i=1;i<=N;i++){
-        // d[i]=d[i-1]+d[1];
+        d[i]=d[i-1]+d[1
         for(int j=1;j*j<=i;j++){
             d[i]=min(d[i],1+d[i-j*j]);
         }
