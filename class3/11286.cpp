@@ -12,7 +12,6 @@ struct comp{
         }
         return abs(a)>abs(b);
     }
-};
 
 int main(){
     ios::sync_with_stdio(0);
