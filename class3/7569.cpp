@@ -66,7 +66,7 @@ int main(){
                     maxe=max(maxe,dis[k][i][j]);
                 }
             }
-        }
+    
     }
     cout<<maxe;
 }
