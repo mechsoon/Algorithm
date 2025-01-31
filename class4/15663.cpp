@@ -4,7 +4,7 @@
 using namespace std;
 int N,M;
 int arr[8];
-bool vis[10001];
+bool vis[8];
 int cnt[8];
 void rec(int k){
     if(k==M){
@@ -16,7 +16,7 @@ void rec(int k){
     int prev=-1;
     for(int i=0;i<N;i++){
         int temp=arr[i];
-        if(!vis[temp] && prev!=temp){
+        if(!vis[i] && prev!=temp){
             cnt[k]=temp;
             prev=temp;
             vis[i]=1;
